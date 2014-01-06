@@ -1,0 +1,32 @@
+{
+  "name": "clearapp",
+  "version": "0.0.0",
+  "description": "an unofficial api for Clear app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/clear.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/node-clearapp.git"
+  },
+  "keywords": [
+    "clear",
+    "app",
+    "osx",
+    "interface",
+    "sqlite3"
+  ],
+  "author": "Tom MacWright",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/tmcw/node-clearapp/issues"
+  },
+  "homepage": "https://github.com/tmcw/node-clearapp",
+  "dependencies": {
+    "sqlite3": "~2.1.19"
+  },
+  "devDependencies": {
+    "tap": "~0.4.6"
+  }
+}
